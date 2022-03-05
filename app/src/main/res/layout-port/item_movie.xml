@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="4dp"
-    android:background="@drawable/shape_view_drawable" >
+    android:background="@drawable/shape_view_drawable"
+    tools:ignore="MissingDefaultResource">
 
 
 
@@ -15,7 +16,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:transitionName="profile"/>
 
     <TextView
         android:id="@+id/tvTitle"
